@@ -2,6 +2,10 @@
     --main-color: #333;
     --main-text-color: #fff;
 }
+a{
+    color: var(--main-color);
+    text-decoration: none;
+}
 
 * {
     margin: 0;
