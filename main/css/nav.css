@@ -23,4 +23,16 @@ header nav {
     justify-content: space-between;
 }
 
-header nav 
+header nav .logo{
+    width: 20pc;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li{
+    color: var(--main-text-color);
+}
