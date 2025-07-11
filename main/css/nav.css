@@ -2,7 +2,8 @@
     --main-color: #333;
     --main-text-color: #fff;
 }
-a{
+
+a {
     color: var(--main-color);
     text-decoration: none;
 }
@@ -12,7 +13,11 @@ a{
     padding: 0;
 }
 
-header nav{
+header {
+    display: flex;
+}
+
+header nav {
     display: flex;
     background-color: var(--main-color);
     justify-content: space-between;
