@@ -14,11 +14,13 @@ a {
 }
 
 header {
-    display: flex;
+    background-color: var(--main-color);
 }
 
 header nav {
-    /* display: flex; */
-    background-color: var(--main-color);
+    display: flex;
+    color: var(--main-text-color);
     justify-content: space-between;
 }
+
+header nav 
