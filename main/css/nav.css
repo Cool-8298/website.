@@ -18,7 +18,7 @@ header {
 }
 
 header nav {
-    display: flex;
+    /* display: flex; */
     background-color: var(--main-color);
     justify-content: space-between;
 }
