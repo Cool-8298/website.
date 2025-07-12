@@ -28,6 +28,7 @@ header nav {
 header nav .logo img{
     width: 15pc;
     border-radius: 50%;
+    transition: .3s ease-in-out;
 }
 
 header nav ul {
@@ -40,4 +41,8 @@ header nav ul {
 
 header nav ul li{
     color: var(--main-text-color);
+}
+
+header nav .logo img:hover{
+    transform: scale3d(1.1);
 }
