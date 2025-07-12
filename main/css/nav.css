@@ -28,6 +28,7 @@ header nav .logo img{
 }
 
 header nav ul {
+    margin-top: 5.5pc;
     display: flex;
     list-style: none;
     gap: 20px;
