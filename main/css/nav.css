@@ -25,6 +25,7 @@ header nav {
 
 header nav .logo img{
     width: 15pc;
+    border-radius: 50%;
 }
 
 header nav ul {
