@@ -1,0 +1,57 @@
+:root {
+    --main-color: #333;
+    --main-text-color: #fff;
+    --hover-color: #525151;
+}
+
+a {
+    color: var(--main-color);
+    height: 1pc;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 12pc;
+    background-color: var(--main-color);
+}
+
+header nav {
+    display: flex;
+    color: var(--main-text-color);
+    justify-content: space-between;
+}
+
+header nav .logo img{
+    width: 14pc;
+    margin-top: -.2pc;
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+}
+
+header nav ul {
+    margin-top: 5.5pc ;
+    margin-right: 2pc ;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li{
+    color: var(--main-text-color);
+    transition: .3s ease-in-out;
+    padding: 1pc 2pc;
+}
+
+header nav .logo img:hover{
+    transform: scale(1.1);
+}
+
+header nav ul li:hover {
+    transform: translateY(-3px);
+    background-color: var(--hover-color);
+}
