@@ -5,6 +5,7 @@
 
 a {
     color: var(--main-color);
+    height: 1pc;
     text-decoration: none;
 }
 
